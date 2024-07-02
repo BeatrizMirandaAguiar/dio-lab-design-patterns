@@ -7,7 +7,8 @@ import jakarta.persistence.Id;
 @Entity
 public class Endereco {
     @Id
-    private String cep, logradouro, complemento, bairro, localidade, uf, ibge, gia, ddd, siafi;
+    private String cep;
+    private String logradouro, complemento, bairro, localidade, uf, ibge, gia, ddd, siafi;
 
     public String getCep() {
         return cep;

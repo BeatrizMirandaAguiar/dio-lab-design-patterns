@@ -10,7 +10,9 @@ import one.digitalinnovation.gof.model.Endereco;
 import one.digitalinnovation.gof.model.EnderecoRepository;
 import one.digitalinnovation.gof.service.ClienteService;
 import one.digitalinnovation.gof.service.ViaCepService;
+import org.springframework.stereotype.Service;
 
+@Service
 public class ClienteServiceimpl  implements ClienteService{
     @Autowired
     private ClienteRepository clienteRepository;
